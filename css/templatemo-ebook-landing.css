@@ -11,14 +11,14 @@ https://templatemo.com/tm-588-ebook-landing
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #E76F51;
-  --secondary-color:              #E9C46A;
+  --primary-color:                #009439;
+  --secondary-color:              #39bf6c;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #F4A261;
-  --custom-btn-bg-hover-color:    #E76F51;
+  --custom-btn-bg-color:          #009439c8;
+  --custom-btn-bg-hover-color:    #009439;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --link-hover-color:             #E76F51;
+  --link-hover-color:             #00ff62;
 
   --body-font-family:             'Unbounded', sans-serif;
 
@@ -135,7 +135,7 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
 }
 
@@ -479,7 +479,7 @@ strong {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--link-hover-color);
 }
 
 .navbar-toggler {
@@ -553,7 +553,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/fondo-principal1.jpg');
+  background-image: url('../images/mujerAgricultura1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -622,7 +622,7 @@ strong {
   CUSTOM BLOCK              
 -----------------------------------------*/
 .custom-block {
-  background-image: url('../images/fondo-principal.jpg');
+  background-image: url('../images/mujerAgricultura.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -696,7 +696,7 @@ strong {
   border: 2px solid var(--primary-color);
   border-radius: var(--border-radius-medium);
   position: sticky;
-  top: 120px;
+  top: 180px;
   padding: 30px;
 }
 
@@ -723,7 +723,7 @@ strong {
 
 .scrollspy-example-item {
   border-bottom: 5px dotted var(--p-color);
-  min-height: 500px;
+  min-height: 220px;
   padding-top: 20px;
   padding-bottom: 50px;
 }
@@ -1051,3 +1051,21 @@ strong {
   }
 }
 
+
+
+.instagram{
+  background: #f09433!important; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)!important; 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)!important; 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)!important; 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  border: 1px solid white;
+}
+
+.instagram:hover{
+  background: var(--custom-btn-bg-hover-color)!important;
+}
+
+.whatsapp{
+  border: 1px solid white;
+}
